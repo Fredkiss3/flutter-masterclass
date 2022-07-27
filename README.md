@@ -1,6 +1,11 @@
-# my_app
+# Flutter Masterclass
 
-A new Flutter project.
+Ensemble de projets effectués avec **Flutter** pendant les cours. Ce projet contient plusieurs mini-apps :
+
+- présentation CV 
+- App de Quizz
+- Pokédex avec possibilité de recherche
+- App de Météo 
 
 ## Getting Started
 
