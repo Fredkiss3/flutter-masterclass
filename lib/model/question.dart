@@ -2,9 +2,9 @@ import 'dart:convert';
 
 class Question {
   final String theme;
+  final int id;
   final String question;
   final String reponse;
-  final int id;
   bool deleted = false;
 
   Question({

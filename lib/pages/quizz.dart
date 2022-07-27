@@ -33,7 +33,6 @@ class _QuizzAppScreenState extends State<QuizzAppScreen> {
     http.get(Uri.parse('$baseUrl/question')).then((response) {
       if (response.statusCode == 200) {
         Map<int, Question> questionLoaded = {};
-        print(jsonDecode(response.body));
         for (var map in jsonDecode(response.body)) {
           var q = Question.fromMap(map);
           questionLoaded[q.id] = q;
