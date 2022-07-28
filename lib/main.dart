@@ -7,6 +7,7 @@ import 'package:my_app/pages/pokedex.dart';
 import 'package:my_app/pages/quizz.dart';
 import 'package:my_app/pages/competences.dart';
 import 'package:my_app/pages/home.dart';
+import 'package:my_app/pages/weather.dart';
 
 void main() {
   runApp(MyApp());
@@ -74,7 +75,8 @@ class MyApp extends StatelessWidget {
         ),
         title: 'Flutter Demo',
         routes: {
-          '/': (context) => const PokedexSearchScreen(),
+          '/': (context) => const WeatherScreen(),
+          '/pokedex': (context) => const PokedexSearchScreen(),
           '/quizz': (context) => const QuizzAppScreen(),
           '/create-question': (context) => const CreateQuestionScreen(),
           '/profil': (context) => const HomeScreen(),
